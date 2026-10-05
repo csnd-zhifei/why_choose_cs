@@ -19,6 +19,12 @@ cd ...
 pip install -r requirements.txt
 ```
 
+>如果速度慢，可以使用镜像源加速下载，临时生效（powershell）
+```bash
+$env:UV_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple"
+uv pip install -r requirements.txt
+```
+
 ## 使用方法
 使用linux系统
 ```bash

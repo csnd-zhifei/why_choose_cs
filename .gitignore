@@ -2,5 +2,12 @@ __pycache__/
 
 docs/
 .venv/
+test/
 
 *.env
+
+# 运行时生成的静态文件（上传的头像/md/html、AI 生成的 SPA）
+backend/static/avatar/
+backend/static/md/
+backend/static/html/
+backend/static/spa/*.html
